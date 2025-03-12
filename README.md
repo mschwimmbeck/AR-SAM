@@ -4,7 +4,7 @@ Michael Schwimmbeck (University of Applied Sciences Landshut)
 This work investigates several user interaction concepts for prompting segmentation foundation models directly in Augmented Reality (AR) using the Microsoft HoloLens 2 for AR applications. 
 To achieve this, we implemented eye tracking, finger tracking, ArUco marker tracking, and pointer tracking concepts to place seedpoint prompts for Segment Anything Model (SAM).
 
-**[Paper]()** (To be added as soon as available)
+**[Read Paper](https://link.springer.com/chapter/10.1007/978-3-658-47422-5_31)**
 
 **System Overview:**
 
@@ -70,7 +70,14 @@ The project is licensed under the [AGPL-3.0 license](https://github.com/mschwimm
 ### Citations
 Please consider citing the related paper(s) in your publications if it helps your research.
 ```
-TBD: Add paper
+@inproceedings{schwimmbeck2025augmented,
+  title={Augmented Reality Prompts for Foundation Model-based Semantic Segmentation},
+  author={Schwimmbeck, Michael and Auer, Christopher and Schmidt, Johannes and Remmele, Stefanie},
+  booktitle={BVM Workshop},
+  pages={148--153},
+  year={2025},
+  organization={Springer}
+}
 
 @inproceedings{schwimmbeck2024hola,
   title={HOLa: HoloLens Object Labeling},
